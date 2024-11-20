@@ -1,0 +1,36 @@
+.ac {
+    border-style: solid;
+    border-color: white;
+    border-width: 3px;
+    width: 400px;
+    padding: 350px;
+    background-color: skyblue;
+
+
+}
+
+.aa {
+    border-style: solid;
+
+
+
+}
+
+.ab {
+    border-style: solid;
+    width: 100px;
+    padding: 200px;
+    background-color: white;
+}
+
+.container {
+    display: flex;
+    border-collapse: separate;
+
+}
+
+.ad {
+    border-style: solid;
+    width: 100px;
+    width: 100px;
+}
