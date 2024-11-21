@@ -5,12 +5,14 @@
     width: 400px;
     padding: 300px;
     background-color: skyblue;
-    
+
+
 
 }
 
 .aa {
     border-style: solid;
+
 
 }
 
@@ -23,13 +25,15 @@
 
 .container {
     display: flex;
-    border-collapse: separate;
+
+    justify-content: center;
+
 
 }
 
 .ad {
     width: 400px;
-    padding-top:100px ;
+    padding-top: 100px;
     background-color: greenyellow;
     border-width: 3px;
     border-style: solid;
@@ -37,17 +41,18 @@
     margin-left: -155%;
 
 }
-#user{
+
+#user {
     width: 180px;
     margin-top: 10%;
-    padding-top:15px ;
+    padding-top: 15px;
     border-style: solid;
     border-width: 3px;
     background-color: #e6ff9d;
-    margin-left: -50%  
-
+    margin-left: -50%
 }
-.button{
+
+.button {
     display: inline-block;
     padding: 5px 30px;
     margin: 10px;
@@ -58,31 +63,37 @@
     border-width: 2px;
     margin-left: -10%;
 }
-.tengah{
+
+.tengah {
     margin-left: 5px;
 }
-.nn{
+
+.nn {
     text-decoration: none;
     color: blue;
 }
-.jj{
+
+.jj {
     margin-top: 50%;
 }
-.cc{
+
+.cc {
     width: 250px;
     height: 650px;
     border-style: solid;
-   
+
 }
-.cd{
+
+.cd {
     width: 240px;
-    padding-top:50px ;
+    padding-top: 50px;
     background-color: rgba(10, 212, 50, 0.336);
     border-width: 3px;
     border-style: solid;
     margin-left: 1%;
 }
-.ce{
+
+.ce {
     display: inline-block;
     padding: 10px 30px;
     margin: 30px;
@@ -90,8 +101,10 @@
     color: black;
     border-style: solid;
     margin-left: 24%;
+    text-decoration: none;
 }
-.cf{
+
+.cf {
     display: inline-block;
     padding: 10px 41px;
     background-color: rgba(135, 207, 235, 0.662);
@@ -99,7 +112,8 @@
     border-style: solid;
     margin-left: 24%;
 }
-.cg{
+
+.cg {
     display: inline-block;
     padding: 10px 32px;
     margin: 30px;
@@ -108,7 +122,8 @@
     border-style: solid;
     margin-left: 24%;
 }
-.ch{
+
+.ch {
     display: inline-block;
     padding: 10px 41px;
     background-color: rgba(135, 207, 235, 0.662);
@@ -116,53 +131,61 @@
     border-style: solid;
     margin-left: 24%;
 }
-.ci{
+
+.ci {
     width: 1250px;
     height: 53px;
     border-style: solid;
-    
+
 
 }
-.pp{
+
+.pp {
     display: flex;
-   
+
 }
 
-.b{
+.b {
     margin-left: 88%;
     align-items: center;
- 
- 
+
+
 }
+
 .circle {
     width: 30px;
     height: 30px;
-    background-color: skyblue; 
-    border-radius: 50%; 
+    background-color: skyblue;
+    border-radius: 50%;
     border-style: solid;
-    
+
 }
-.d{
+
+.d {
     align-items: center;
     display: flex;
     gap: 5px;
 }
+
 table {
     width: 100%;
     border-collapse: collapse;
-    margin-bottom: 20px; 
-  }
-  th {
+    margin-bottom: 20px;
+}
+
+th {
     border: 1px solid black;
-    padding: 15px; 
+    padding: 15px;
     text-align: center;
     font-size: 16px;
-  }
-  th {
+}
+
+th {
     background-color: #f4f4f4;
     font-weight: bold;
-  }
-.ok{
+}
+
+.ok {
     display: inline-block;
     padding: 10px 35px;
     margin: 20px;
@@ -171,9 +194,10 @@ table {
     border-style: solid;
     margin-left: -24%;
 }
-.ow{
+
+.ow {
     border-style: solid;
     display: flex;
     justify-content: space-between;
-    
+
 }

@@ -21,16 +21,16 @@
         </div>
         <div class="ab">
             <div class="ad">
-                
+
             </div>
             <div class="jj"></div>
-                <form action="">
-                    <input type="text" id="user"  placeholder="username"><br>
-                    <input type="text" id="user"  placeholder="password"><br>
-                    <a href="dashboard.html" class="button">Login</a>
-                    <a href="lupas passowrd.html" class="nn">Lupa password</a>
-                  
-                  </form> 
+            <form action="dashboard.php" method="post">
+                <input type="text" id="user" placeholder="username" required><br>
+                <input type="text" id="user" placeholder="password" required><br>
+                <a href="dashboard.php" class="button">Login</a>
+                <a href="lupa password.php" class="nn">Lupa password</a>
+
+            </form>
         </div>
     </div>
 
