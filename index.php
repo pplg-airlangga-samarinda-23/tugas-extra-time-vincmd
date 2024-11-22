@@ -24,11 +24,11 @@
 
             </div>
             <div class="jj"></div>
-            <form action="dashboard.php" method="post">
-                <input type="text" id="user" placeholder="username" required><br>
-                <input type="text" id="user" placeholder="password" required><br>
-                <a href="dashboard.php" class="button">Login</a>
-                <a href="lupa password.php" class="nn">Lupa password</a>
+            <form action="proses.login.php" method="post">
+                <input type="text" name="username" id="user" placeholder="username" required><br>
+                <input type="text" name="password" id="user" placeholder="password" required><br>
+                <button type="submit" class="button">Login</button>
+                <a href="lupa-password.php" class="nn">Lupa password</a>
 
             </form>
         </div>

@@ -47,124 +47,29 @@
       <table>
 
         <tr>
-
-          <th rowspan="2">NO</th>
-          <th rowspan="2">Nama barang</th>
-          <th rowspan="2">Pengadaan </th>
-          <th rowspan="2">Stok</th>
-          <th colspan="2">Status</th>
+          <th>No</th>
+          <th>Namabarang</th>
+          <th>Pengadaan</th>
+          <th>stok</th>
+          <th>Status</th>
         </tr>
-
-        <tr>
-          <th>Baik</th>
-          <th>Rusak</th>
-        </tr>
-
-        <tr>
-          <th></th>
-          <th></th>
-          <th></th>
-          <th></th>
-          <th></th>
-          <th></th>
-        </tr>
-        <tr>
-          <th></th>
-          <th></th>
-          <th></th>
-          <th></th>
-          <th></th>
-          <th></th>
-        </tr>
-        <tr>
-          <th></th>
-          <th></th>
-          <th></th>
-          <th></th>
-          <th></th>
-          <th></th>
-        </tr>
-        <tr>
-          <th></th>
-          <th></th>
-          <th></th>
-          <th></th>
-          <th></th>
-          <th></th>
-        </tr>
-        <tr>
-          <th></th>
-          <th></th>
-          <th></th>
-          <th></th>
-          <th></th>
-          <th></th>
-        </tr>
-        <tr>
-          <th></th>
-          <th></th>
-          <th></th>
-          <th></th>
-          <th></th>
-          <th></th>
-        </tr>
-        <tr>
-          <th></th>
-          <th></th>
-          <th></th>
-          <th></th>
-          <th></th>
-          <th></th>
-        </tr>
-        <tr>
-          <th></th>
-          <th></th>
-          <th></th>
-          <th></th>
-          <th></th>
-          <th></th>
-        </tr>
-        <tr>
-          <th></th>
-          <th></th>
-          <th></th>
-          <th></th>
-          <th></th>
-          <th></th>
-        </tr>
-        <tr>
-          <th></th>
-          <th></th>
-          <th></th>
-          <th></th>
-          <th></th>
-          <th></th>
-        </tr>
-        <tr>
-          <th></th>
-          <th></th>
-          <th></th>
-          <th></th>
-          <th></th>
-          <th></th>
-        </tr>
-        <tr>
-          <th></th>
-          <th></th>
-          <th></th>
-          <th></th>
-          <th></th>
-          <th></th>
-        </tr>
-        <tr>
-          <th></th>
-          <th></th>
-          <th></th>
-          <th></th>
-          <th></th>
-          <th></th>
-        </tr>
-
+        <?php
+        include "koneksi.php";
+        $no = 1;
+        $connection = mysqli_query($connection, "select * from barang");
+        while ($tampil = mysqli_fetch_array($connection)) {
+          echo "
+          <tr>
+           <td style='border: 1px solid black; padding: 15px; font-size: 12px; text-align: center;'>$no</td>
+            <td style='border: 1px solid black; padding: 15px; font-size: 12px; text-align: center;'>$tampil[Namabarang]</td>
+            <td style='border: 1px solid black; padding: 15px; font-size: 12px; text-align: center;'>$tampil[Pengadaan]</td>
+            <td style='border: 1px solid black; padding: 15px; font-size: 12px; text-align: center;'>$tampil[stok]</td>
+           <td style='border: 1px solid black; padding: 15px; font-size: 12px; text-align: center;'> $tampil[status]</td>
+            </tr>
+            ";
+          $no++;
+        }
+        ?>
 
       </table>
     </div>
@@ -172,6 +77,7 @@
   </div>
 
   </div>
+
   <footer>
     <div class="ow">
       <h3> Copyright</h3>

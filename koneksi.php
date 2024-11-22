@@ -2,9 +2,9 @@
 $host = "localhost";
 $username = "root";
 $password = "";
-$database = "login";
+$database = "barang";
 
 $connection = new mysqli($host, $username, $password, $database);
 if ($connection->connect_error) {
-    echo "koneksi gagal:    ";
+    die("koneksi gagal: " . $connection->connect_error);
 }
